@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "motionslate",
+      "name": "MotionSlate",
+      "tagline": "Record recoverable iPhone body motion as native Actions",
+      "version": "0.3.0",
+      "type": "add-on",
+      "maintainer": "One More Build",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "permissions": {
+        "network": "Connect to the local motion recorder",
+        "files": "Read profiles and recover source recordings"
+      },
+      "platforms": [
+        "macos-arm64"
+      ],
+      "archive_url": "./motionslate-0.3.0.zip",
+      "archive_size": 86834,
+      "archive_hash": "sha256:9aafb1b1a02e1d0abe68ce6cce06cc605b23f859be55b59e953c94f04786e5fb"
+    }
+  ]
+}
